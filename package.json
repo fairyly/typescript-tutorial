@@ -1,33 +1,16 @@
 {
-  "name": "typescript-tutorial",
-  "version": "0.1.0",
-  "description": "从 JavaScript 程序员的角度总结思考，循序渐进的理解 TypeScript",
-  "main": "README.md",
-  "directories": {
-    "example": "examples"
-  },
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "first.js",
   "scripts": {
-    "eslint": "eslint index.ts"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xcatliu/typescript-tutorial.git"
-  },
-  "keywords": [
-    "typescript",
-    "tutorial",
-    "javascript"
-  ],
-  "author": "xcatliu <xcatliu@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/xcatliu/typescript-tutorial/issues"
-  },
-  "homepage": "https://github.com/xcatliu/typescript-tutorial#readme",
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "eslint": "^4.11.0",
-    "eslint-plugin-typescript": "^0.8.0",
-    "typescript": "^2.6.1",
-    "typescript-eslint-parser": "^9.0.0"
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^4.0.2",
+    "typescript": "^2.8.3"
   }
 }
